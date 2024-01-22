@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/homepage/navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "HavenBakes",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
