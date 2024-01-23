@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         maroon: "#6F3132",
+        cream: "#EDE9E5",
+        white: "#FFFFFF",
         green: {
           50: "#30AF5B",
           90: "#292C27",
