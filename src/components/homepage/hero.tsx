@@ -10,7 +10,7 @@ interface ProductProps {
 const ProductItem = ({ title, backgroundImage }: ProductProps) => {
   return (
     <div className="flex items-center flex-col">
-      <div className="relative rounded-full overflow-hidden h-40 w-40">
+      <div className="relative rounded-full overflow-hidden h-32 w-32 md:h-40 md:w-40">
         <Image
           src={backgroundImage}
           alt={title}
@@ -28,7 +28,7 @@ const ProductItem = ({ title, backgroundImage }: ProductProps) => {
 const Hero = () => {
   return (
     <section className="flexCenter flex-col max-container padding-container py-10">
-      <div className=" text-center bold-52 lg:bold-88 text-maroon mb-9">
+      <div className=" text-center bold-40 md:bold-52 lg:bold-88 text-maroon mb-9">
         Premium Butter Cookies
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-6">
