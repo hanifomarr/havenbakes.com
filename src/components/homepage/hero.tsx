@@ -18,15 +18,17 @@ const ProductItem = ({ title, backgroundImage }: ProductProps) => {
           className="object-cover"
         />
       </div>
-      <div className="flexCenter bold-20 text-center text-maroon">{title}</div>
+      <div className="flexCenter bold-20 text-center text-maroon mt-5">
+        {title}
+      </div>
     </div>
   );
 };
 
 const Hero = () => {
   return (
-    <section className="h-auto flexCenter flex-col max-container padding-container py-10">
-      <div className=" text-center bold-52 lg:bold-88 text-maroon">
+    <section className="flexCenter flex-col max-container padding-container py-10">
+      <div className=" text-center bold-52 lg:bold-88 text-maroon mb-9">
         Premium Butter Cookies
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-6">
