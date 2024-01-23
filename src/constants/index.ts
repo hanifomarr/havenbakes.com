@@ -2,48 +2,48 @@ export const TESTIMONIAL = [
   {
     column: [
       {
-        name: "Afiqah",
+        name: "premnair",
         platform: "Shopee",
         content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.",
+          "I wld say, sgt sedap Will repeat order. Packaging very well done. All in good condition. Fast delivery",
       },
       {
-        name: "Afiqah",
+        name: "Natalif69",
         platform: "Tiktok",
         content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.",
+          "Sedap Gila,speechless rasanya.I definitely repeat order again and again",
       },
     ],
   },
   {
     column: [
       {
-        name: "Afiqah",
+        name: "s*****n",
         platform: "Shopee",
         content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.",
+          "All time favourite. Cookies sangat sedap. My little son also suka makan. Secure packaging..none of the cokkies yg pecah. Thanks for taking it seriously as crumbled cookies will definitely break my heart. Boleh order lagi for this coming CNY",
       },
       {
-        name: "Afiqah",
+        name: "nurulfadzlina87",
         platform: "Tiktok",
         content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.",
+          "tak pernah tak sedapp..semua sedappp semua cepat habis kalau beli",
       },
     ],
   },
   {
     column: [
       {
-        name: "Afiqah",
+        name: "thilakagovindara1",
         platform: "Shopee",
         content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.",
+          "The best cookies so far I have tried .super delicous .I bought pandan dan chocolate.they are too good.finished without an hour.definitely they use premium ingredients",
       },
       {
-        name: "Afiqah",
+        name: "S*****p",
         platform: "Tiktok",
         content:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.",
+          "Memang sedappp mak saya pun suka, walaupun ade cornflakes tapi orang tua pun boleh makan. Habis dah sekejap je",
       },
     ],
   },
