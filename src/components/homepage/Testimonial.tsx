@@ -1,13 +1,23 @@
 import { TESTIMONIAL } from "@/constants";
 import React from "react";
+import { Bona_Nova } from "next/font/google";
+import Ranting from "../ui/ranting";
+
+const bona = Bona_Nova({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-bona",
+});
 
 const Testimonial = () => {
   return (
     <section className="min-w-screen min-h-screen flex items-center px-5 py-16 md:py-24">
       <div className="w-full max-w-6xl mx-auto">
         <div className="text-center max-w-xl mx-auto">
-          <h1 className="bold-32 md:bold-52 mb-5 text-maroon">
-            Review From Shopee!
+          <h1
+            className={`bold-32 md:bold-52 mb-5 text-maroon ${bona.variable} font-sans`}
+          >
+            Review From Our Customer
           </h1>
         </div>
         <div className="-mx-3 py-10 md:flex items-start">
@@ -23,9 +33,9 @@ const Testimonial = () => {
                       <h6 className="font-bold text-sm uppercase text-maroon">
                         {data.name}
                       </h6>
-                      <p className="regular-16 text-sm  text-gray-600">
-                        {data.platform}
-                      </p>
+                      <div className="flex flex-row">
+                        <Ranting />
+                      </div>
                     </div>
                   </div>
                   <div className="w-full">
