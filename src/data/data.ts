@@ -20,7 +20,7 @@ export const product = [
     title: "Salted Caramel Pod",
     image: "/products/salted_caramel_pod.jpg",
   },
-  { id: 1, title: "Nutella Pod", image: "/products/nutella_pod.jpg" },
+  { id: 1, title: "HazelChoc Pod", image: "/products/nutella_pod.jpg" },
   {
     id: 10,
     title: "Red Velvet Kinder Pod",
