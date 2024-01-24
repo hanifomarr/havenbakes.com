@@ -27,6 +27,7 @@ const Footer = () => {
       <p className="mt-4">
         &copy; {currentYear} HavenBakes. All rights reserved.
       </p>
+      <p className="text-[12px] font-[400]">Develop by Hanif Omar</p>
     </footer>
   );
 };

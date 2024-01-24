@@ -1,6 +1,13 @@
 import { product } from "@/data/data";
 import Image from "next/image";
 import React from "react";
+import { Bona_Nova } from "next/font/google";
+
+const bona = Bona_Nova({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-bona",
+});
 
 interface ProductProps {
   backgroundImage: string;
@@ -18,7 +25,7 @@ const ProductItem = ({ title, backgroundImage }: ProductProps) => {
           className="object-cover"
         />
       </div>
-      <div className="flexCenter bold-20 text-center text-maroon mt-5">
+      <div className={`flexCenter bold-20 text-center text-maroon mt-5 `}>
         {title}
       </div>
     </div>
@@ -28,7 +35,9 @@ const ProductItem = ({ title, backgroundImage }: ProductProps) => {
 const Hero = () => {
   return (
     <section className="flexCenter flex-col max-container padding-container py-10">
-      <div className=" text-center bold-40 md:bold-52 lg:bold-88 text-maroon mb-9">
+      <div
+        className={`text-center bold-40 md:bold-52 lg:bold-88 text-maroon mb-9 ${bona.variable} font-sans`}
+      >
         Premium Butter Cookies
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-6">

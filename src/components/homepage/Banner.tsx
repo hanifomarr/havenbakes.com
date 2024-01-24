@@ -1,4 +1,11 @@
 import React from "react";
+import { Bona_Nova } from "next/font/google";
+
+const bona = Bona_Nova({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-bona",
+});
 
 const Banner = () => {
   return (
@@ -6,7 +13,9 @@ const Banner = () => {
       <div className=" bg-maroon h-[200px] md:h-[300px] lg:[400px] rounded-xl">
         <div className="flex h-full items-center justify-center">
           <div className="px-6 text-center md:px-12">
-            <h2 className=" mb-8 bold-20 md:bold-32 lg:bold-52 text-cream">
+            <h2
+              className={`mb-8 text-[28px] font-[700] md:bold-32 lg:bold-52 text-cream ${bona.variable} font-sans`}
+            >
               Pre Order Raya 2024 <br />
               Is Now Open
             </h2>

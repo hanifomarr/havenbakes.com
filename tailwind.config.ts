@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["var(--font-bona)"],
+      },
       colors: {
         maroon: "#6F3132",
         cream: "#EDE9E5",
