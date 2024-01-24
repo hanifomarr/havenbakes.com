@@ -1,48 +1,24 @@
-import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import styles from "./overview.module.css";
+import Lenis from "@studio-freight/lenis";
+import ZoomParallax from "../zoomParallax/ZoomParallax";
+import Navbar from "../navbar/Navbar";
 
 const Overview = () => {
-  return (
-    <div className="w-full h-screen bg-fixed bg-cover bg-center flex justify-center items-center relative">
-      {/* Background Image for Desktop */}
-      <div
-        className="hidden md:flex w-full h-full bg-fixed bg-cover relative"
-        style={{
-          backgroundImage: 'url("/overview/apron.jpg")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="flex flex-col items-center justify-center w-full h-full">
-          <Image
-            src="/logo/hb_logotype_white.svg"
-            alt="HavenBakes Logo"
-            width={200}
-            height={50}
-            className="w-[300px] md:w-[500px]"
-          />
-        </div>
-      </div>
+  useEffect(() => {
+    const lenis = new Lenis();
 
-      {/* Background Image for Mobile */}
-      <div
-        className="flex md:hidden w-full h-full bg-fixed bg-cover relative"
-        style={{
-          backgroundImage: 'url("/overview/mobile_apron.jpg")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="flex flex-col items-center justify-center w-full h-full">
-          <Image
-            src="/logo/hb_logotype_white.svg"
-            alt="HavenBakes Logo"
-            width={200}
-            height={50}
-            className="w-[300px] md:w-[500px]"
-          />
-        </div>
-      </div>
+    function raf(time: any) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
+
+  return (
+    <div className={styles.main}>
+      <ZoomParallax />
     </div>
   );
 };

@@ -7,7 +7,7 @@ const Testimonial = () => {
       <div className="w-full max-w-6xl mx-auto">
         <div className="text-center max-w-xl mx-auto">
           <h1 className="bold-32 md:bold-52 mb-5 text-maroon">
-            What people are saying.
+            Review From Shopee!
           </h1>
         </div>
         <div className="-mx-3 py-10 md:flex items-start">
