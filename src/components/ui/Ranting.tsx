@@ -5,8 +5,8 @@ const ranting = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }];
 const Ranting = () => {
   return (
     <>
-      {ranting.map(() => (
-        <div className="flex items-center mt-2 h-4 w-4">
+      {ranting.map((item) => (
+        <div key={item.id} className="flex items-center mt-2 h-4 w-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="#FDCC0D"

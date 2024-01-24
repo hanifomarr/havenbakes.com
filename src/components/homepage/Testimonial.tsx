@@ -1,7 +1,7 @@
 import { TESTIMONIAL } from "@/constants";
 import React from "react";
 import { Bona_Nova } from "next/font/google";
-import Ranting from "../ui/ranting";
+import Ranting from "../ui/Ranting";
 
 const bona = Bona_Nova({
   subsets: ["latin"],
