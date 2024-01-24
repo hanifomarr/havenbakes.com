@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import styles from "./overview.module.css";
 import Lenis from "@studio-freight/lenis";
 import ZoomParallax from "../zoomParallax/ZoomParallax";
-import Navbar from "../navbar/Navbar";
 
 const Overview = () => {
   useEffect(() => {
