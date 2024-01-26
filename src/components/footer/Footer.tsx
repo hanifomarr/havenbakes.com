@@ -20,8 +20,8 @@ const Footer = () => {
   return (
     <footer className="bg-white text-maroon text-center py-32">
       <img
-        src="/overview/hb_logotype.svg"
-        alt="Company Logo"
+        src="/logo/hb_logotype.svg"
+        alt="HavenBakes"
         className="mx-auto h-16"
       />
       <p className="mt-4">

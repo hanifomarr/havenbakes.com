@@ -1,5 +1,4 @@
 import { product } from "@/data/data";
-import Image from "next/image";
 import React from "react";
 import { Bona_Nova } from "next/font/google";
 
@@ -17,12 +16,11 @@ interface ProductProps {
 const ProductItem = ({ title, backgroundImage }: ProductProps) => {
   return (
     <div className="flex items-center flex-col">
-      <div className="relative rounded-full overflow-hidden h-32 w-32 md:h-40 md:w-40">
-        <Image
+      <div className="relative rounded-full overflow-hidden ">
+        <img
           src={backgroundImage}
           alt={title}
-          fill
-          className="object-cover"
+          className="object-cover h-32 w-32 md:h-40 md:w-40"
         />
       </div>
       <div className={`flexCenter bold-20 text-center text-maroon mt-5 `}>
